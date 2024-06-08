@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: white;
+            width: 100%;
+        }
+        #title{
+            width: 100%;
+            height: 100px;
+            background-color: #314d4b;
+            text-align: center;
+            float: top;
+            font-size: 40px;
+        }
+        .fixed{
+            position: fixed;
+            top: 0%;
+            box-shadow: 10px 10px 24px #314d4b;
+        }
+        #prawybok {
+            width: 10%;
+            position: fixed;
+            height: 1000000px;
+            background-color: #51bb8b;
+            float: left;
+            transition-duration: 600ms;
+            border-right: #40906C solid 4px;
+        }
+        #prawybok:hover{
+            width: 20%;
+        }
+        body {
+            background-color: #B8DBD6;
+        }
+        #sadfas{
+            width: 50%;
+            background-color: white;
+            float: right;
+            margin-right: 25%;
+            margin-top: 60px;
+            height: 600px;
+            text-align: center;
+            border-radius: 10%;
+            box-shadow: 5px 10px rgba(0, 0, 0, 0.342);
+            transition-duration: 100ms;
+        }
+        h2{
+            font-size: 40px;
+        }
+        #sadfas:hover{
+            box-shadow: 10px 20px rgba(0, 0, 0, 0.486);
+        }
+        #img{
+            height: 70%;
+            border-radius: 2%;
+            box-shadow: 1px 2px rgba(0, 0, 0, 0.342);
+        }
+        #opcja1{
+            width: 100%;
+            height: 50px;
+            float: left;
+            background-color: #51bb8b;
+            border-top: #40906C solid 4px;
+            font-size: 20px;
+        }
+        #opcja2{
+            width: 100%;
+            height: 50px;
+            float: left;
+            background-color: #51bb8b;
+            border: none;
+            font-size: 20px;
+        }
+        #opcjalast{
+            width: 100%;
+            height: 50px;
+            float: left;
+            background-color: #51bb8b;
+            border-top: #40906C solid 4px;
+            border-bottom: #40906C solid 4px;
+            font-size: 20px;
+        }
+        #opcja1:hover{
+            background-color: #56c995;
+        }
+        #opcja2:hover{
+            background-color: #56c995;
+        }
+        #opcjalast:hover{
+            background-color: #56c995;
+        }
+        #divtekst {
+            width: 50%;
+            background-color: white;
+            float: right;
+            margin-right: 25%;
+            margin-top: 60px;
+            height: fit-content;
+            text-align: center;
+            border-radius: 10%;
+            box-shadow: 5px 10px rgba(0, 0, 0, 0.342);
+            transition-duration: 300ms;
+            border-radius: 50px;
+        }
+        #divtekst:hover{
+            box-shadow: 10px 20px rgba(0, 0, 0, 0.486);
+        }
+    </style>
+</head>
+<body>
+    <div id="title">
+        <h1>STRONA PIEKNA</h1>
+    </div>
+    <div id="title" class="fixed">
+        <h1>STRONA PIEKNA</h1>
+    </div>
+    <div id="prawybok">
+        <div id="opcja1"><button onclick="location.href = 'stronkakolorkowa.html';" id="opcja2">START</button></div> <br>
+        <div id="opcja1"><button onclick="location.href = 'galeria.html';" id="opcja2">GALERIA</button></div>
+        <div id="opcjalast"><button onclick="location.href = 'kontakt.html';" id="opcja2">KONTAKT</button></div>
+    </div>
+    <div id="divtekst">
+        <br>
+        <h2>Discord: @krymonn</h2> <br>
+    </div>
+</body>
+</html>
